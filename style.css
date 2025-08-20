@@ -4,6 +4,12 @@
 
 body {
     margin: 0;
+    --white: #eee;
+    --black: #111;
+}
+
+a {
+    color: var(--white);
 }
 
 .main {
@@ -12,7 +18,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #111;
-    color: #eee;
+    background: var(--black);
+    color: var(--white);
 }
 
